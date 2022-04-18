@@ -1,0 +1,63 @@
+/* навигация футер */
+
+.fopter__thumb {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+.footer__contacts {
+    margin-right: 70px;
+}
+
+.footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: var(--background-second-color);
+}
+
+
+.footer__address {
+    display: block;
+    margin-bottom: 9px;
+
+    color: var(--primary-white-color);
+    font-style: normal;
+    line-height: 1.7;
+}
+
+.footer__address-text {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.footer__unit {
+    display: inline-block;
+    transition: color var(--transition-duration) var(--transition-timing-function);
+
+    color: var(--footer-white-color);
+    line-height: 1.7;
+}
+
+.footer__unit:hover,
+.footer__unit:focus {
+    color: var(--accent-color);
+}
+
+.footer__item+.footer__item {
+    margin-top: 9px;
+}
+
+.footer__social-media {
+    margin-right: 93px;
+}
+
+.footer__sm-title {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-weight: 700;
+    line-height: 1.14;
+    text-transform: uppercase;
+    color: var(--primary-white-color);
+    font-size: 14px;
+}

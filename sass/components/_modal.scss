@@ -1,0 +1,41 @@
+/* Модальное окно */
+
+.modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 528px;
+    height: 581px;
+    padding: 40px;
+    background-color: var(--primary-white-color);
+}
+
+.modal__close {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    border-radius: 50%;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    width: 30px;
+    height: 30px;
+    background-color: var(--primary-white-color);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    cursor: pointer;
+}
+
+.close__icon {
+    fill: var(--primary-black-color);
+    transition: fill var(--transition-duration) var(--transition-timing-function);
+
+
+.modal__close:hover &,
+.modal__close:focus & {
+    fill: var(--accent-color);
+}
+
+}

@@ -1,0 +1,16 @@
+
+/* Нижняя рамка шапки */
+
+.header {
+
+    border-bottom: 1px solid #ececec;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.header__main {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

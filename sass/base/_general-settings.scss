@@ -1,0 +1,41 @@
+/* глобальные селекторы */
+
+body {
+    margin: 0;
+
+    background-color: var(--primary-white-color);
+    color: var(--information-text-color);
+
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+}
+
+
+/* общий контейнер с шириной 
+и индивидуальные для подразделов  */
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+
+    /* outline: 2px solid tomato; */
+}
+
+/* падинги для секций */
+
+.our-dignity,
+.our-team,
+.projects,
+.our-clients {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.our-work {
+    padding-bottom: 94px;
+}

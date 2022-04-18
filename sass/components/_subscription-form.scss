@@ -1,0 +1,43 @@
+/* Форма в футере */
+
+
+.subscription-form {
+    display: flex;
+    align-items: flex-end;
+}
+
+.subscription-form__box {
+    display: flex;
+    flex-direction: column;
+    /* margin-left: 93px; */
+}
+
+.subscription-form__title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--primary-white-color);
+    margin-bottom: 20px;
+}
+
+.subscription-form__input {
+    width: 356px;
+    height: 50px;
+    padding: 13px 16px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    background-color: transparent;
+    color: var(--primary-white-color);
+    border-radius: 4px;
+    font-family: "Roboto",
+        sans-serif
+}
+
+.subscription-form__button {
+    margin-left: 12px;
+}
+
+.subscription-form__button-icom {
+    margin-left: 10px;
+}

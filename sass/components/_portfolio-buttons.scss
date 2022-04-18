@@ -1,0 +1,39 @@
+.portfolio-buttons {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+    
+}
+
+.portfolio-buttons__item:not(:last-child) {
+    margin-right: 8px;
+}
+
+.portfolio-buttons__unit {
+    transition: background-color var(--transition-duration) var(--transition-timing-function),
+        color var(--transition-duration) var(--transition-timing-function),
+        box-shadow var(--transition-duration) var(--transition-timing-function);
+
+    border: 0 transparent;
+    border-radius: 4px;
+    padding: 6px 22px;
+    color: var(--title-text-color);
+    background-color: var(--our-team-background);
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    letter-spacing: 0.03em;
+
+
+&:hover,
+&:focus {
+    background-color: var(--accent-color);
+    color: var(--primary-white-color);
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.08),
+        0 3px 1px rgba(0, 0, 0, 0.1);
+
+    cursor: pointer;
+}
+
+}

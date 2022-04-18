@@ -1,0 +1,15 @@
+/* обнуление стилизации ссылок */
+.link {
+    text-decoration: none;
+}
+
+/* обнуление стилей списков */
+.list {
+    padding-left: 0;
+    margin: 0;
+    list-style: none;
+    list-style-type: none;
+}
+img {
+    display: block;
+}

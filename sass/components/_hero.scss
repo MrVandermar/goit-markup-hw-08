@@ -1,0 +1,40 @@
+/* герой */
+
+.hero {
+    max-width: 1600px;
+    height: 600px;
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4),
+            rgba(47, 48, 58, 0.4)),
+        url(../image/hero-BG.jpg);
+    background-color: var(--hero-background-color);
+    margin-left: auto;
+    margin-right: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    border: 1px solid var(--primary-black-color);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    text-align: center;
+}
+
+.title__hero {
+    margin-top: 0;
+    margin-bottom: 30px;
+
+    color: var(--primary-white-color);
+
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.4;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+
+.button__hero {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 8px 30px;
+}

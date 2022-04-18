@@ -1,0 +1,52 @@
+/* Наша клиенты */
+
+.our-clients__title {
+    margin-top: 0;
+    margin-bottom: 50px;
+
+    color: var(--title-text-color);
+
+    font-size: 36px;
+    text-align: center;
+}
+
+.our-clients__list {
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.our-clients__link {
+    display: block;
+    transition: border var(--transition-duration) var(--transition-timing-function);
+    width: 170px;
+    height: 92px;
+    border: 1px solid var(--icon-color);
+    border-radius: 4px;
+    padding: 16px 32px;
+
+
+&:hover,
+&:focus {
+    border: 1px solid var(--accent-color);
+}
+
+}
+
+.our-clients__link:not(:last-child) {
+    margin-right: 30px;
+}
+
+.our-clients__icon {
+    transition: fill var(--transition-duration) var(--transition-timing-function);
+
+    fill: var(--icon-color);
+
+
+.our-clients__link:hover>&,
+.our-clients__link:focus & {
+    fill: var(--accent-color);
+}
+
+}
