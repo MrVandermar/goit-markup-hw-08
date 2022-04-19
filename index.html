@@ -19,10 +19,16 @@
 <body>
     <!--Шапка-->
     <header class="header">
-        <div class="container">
-            <div class="header__main">
+        <div class="container header__main">
                 <nav class="nav">
                     <a class="link logo" lang="en" href="./index.html"> <span class="logo__title">Web</span>Studio</a>
+                    
+                    <button class="menu-btn" type="button" aria-label="Кнопка открытия меню" aria-expanded="false" data-menu-button="1">
+                        <svg class="menu-btn__icon" width="40" height="40">
+                            <use class="menu-btn__icon-open" href="./image/icons.svg#icon-open-menu"></use>
+                            <use class="menu-btn__icon-close" href="./image/icons.svg#icon-close-menu"></use>
+                        </svg>
+                    </button>
                     <ul class="list nav__list ">
                         <li class="nav__item">
                             <a class="link nav__link nav__link--underline-studio" href="./index.html">Студия</a>
@@ -49,7 +55,6 @@
                             </svg> +38 096 111 11 11</a>
                     </li>
                 </ul>
-            </div>
         </div>
 
     </header>
@@ -57,16 +62,16 @@
     <main>
         <!--Герой-->
 
-        <section class="hero">
+        <!-- <section class="hero">
             <h1 class="title__hero">
                 Эффективные решения <br />для вашего бизнеса
             </h1>
             <button class="button-template button__hero" type="button" data-modal-open> Заказать услугу </button>
-        </section>
+        </section> -->
 
         <!--Наши достоинства-->
 
-        <section class="our-dignity">
+        <!-- <section class="our-dignity">
             <div class="container">
                 <h2 hidden class="our-dignity__title ">Наши достоинства</h2>
                 <ul class="list our-dignity__list">
@@ -112,9 +117,11 @@
                     </li>
                 </ul>
             </div>
-        </section>
+        </section> -->
+        
         <!--Чем мы занимаемся-->
-        <section class="our-work">
+        
+        <!-- <section class="our-work">
             <div class="container">
                 <h2 class="our-work__title">Чем мы занимаемся</h2>
                 <ul class="list our-work__list">
@@ -144,9 +151,11 @@
                     </li>
                 </ul>
             </div>
-        </section>
+        </section> -->
+        
         <!--Наша команда-->
-        <section class="our-team">
+        
+        <!-- <section class="our-team">
             <div class="container">
                 <h2 class="our-work__title">Наша команда</h2>
                 <ul class="list our-team__list">
@@ -272,9 +281,11 @@
                     </li>
                 </ul>
             </div>
-        </section>
+        </section> -->
+        
         <!-- Наши клиенты -->
-        <section class="our-clients">
+        
+        <!-- <section class="our-clients">
             <div class="container">
                 <h2 class="our-clients__title">Постоянные клиенты</h2>
                 <ul class="our-clients__list list">
@@ -316,10 +327,12 @@
                     </li>
                 </ul>
             </div>
-        </section>
+        </section> -->
     </main>
+    
     <!--Подвал-->
-    <footer class="footer">
+    
+    <!-- <footer class="footer">
         <div class="container">
             <div class="fopter__thumb">
                 <div class="footer__contacts">
@@ -380,9 +393,11 @@
 
             </div>
         </div>
-    </footer>
-    <!-- Модальное окно -->
-    <div class="backdrop is-hidden" data-modal>
+    </footer> -->
+    
+     <!-- Модальное окно -->
+    
+    <!-- <div class="backdrop is-hidden" data-modal>
         <div class="modal">
             <button class="modal__close" data-modal-close>
                 <svg class="close__icon" width="11" height="11">
@@ -438,8 +453,55 @@
                 <button class="button-template form__modal-button" type="submit">Отправить</button>
             </form>
         </div>
-    </div>
+    </div> -->
+    
     <!-- Скрипт для модалки -->
+
+    <!-- Мобільне меню -->
+     <div class="mobile-overlay" data-menu="1">
+        <div class="mobile-menu">
+            <nav class="mobile-nav">
+                <ul class="list mobile-nav__list">
+                    <li class="mobile-nav__item">
+                        <a class="mobile-nav__link link" href="">Студия</a>
+                    </li>
+                    <li class="mobile-nav__item">
+                        <a class="mobile-nav__link link" href="">Портфолио</a>
+                    </li>
+                    <li class="mobile-nav__item">
+                        <a class="mobile-nav__link link" href="">Контакты</a>
+                    </li>
+                </ul>
+            </nav>
+    
+                <ul class="list mobile-menu__contacts">
+                    <li class="mobile-menu__contacts-item">
+                <a class="link mobile-menu__contacts-tel" href="tel:+380441111111">+38 096 111 11 11</a>
+                </li>
+                <li class="mobile-menu__contacts-item">
+                    <a class="link mobile-menu__contacts-mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                </li>
+                </ul>
+    
+            <ul class="list socials">
+                <li class="socials__item">
+                    <a class="link socials__link" href="" target="_blank" rel="noopener noreferrer">Instagram</a>
+                </li>
+    
+                <li class="socials__item">
+                    <a class="link socials__link" href="" target="_blank" rel="noopener noreferrer">Twitter</a>
+                </li>
+                <li class="socials__item">
+                    <a class="link socials__link" href="" target="_blank" rel="noopener noreferrer">Facebook</a>
+                </li>
+                <li class="socials__item">
+                    <a class="link socials__link" href="" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                </li>
+            
+            </ul>
+        </div>
+    </div> 
+    <script src="./JS/mobile-menu.js"></script>
     <script src="./JS/modal.js"></script>
 </body>
 

@@ -1,8 +1,10 @@
-@import "./variables/variables";
+@import "./utils/variables";
 @import "./base/resets";
 @import "./base/general-settings";
+
 @import "./components/header";
 @import "./components/logo";
+@import "./components/menu-btn";
 @import "./components/nav";
 @import "./components/footer";
 @import "./components/social-media";
@@ -16,5 +18,7 @@
 @import "./utils/backdrop-hiding";
 @import "./components/modal";
 @import "./components/form";
+@import "./components/mobile-menu";
+
 @import "./components/portfolio-buttons";
 @import "./components/portfolio-projects";
