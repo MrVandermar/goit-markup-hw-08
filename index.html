@@ -162,8 +162,30 @@
                 <h2 class="our-team__title">Наша команда</h2>
                 <ul class="list our-team__list">
                     <li class="our-team__item">
-                        <img class="our-team__foto" src="./image/team/foto1.jpg" alt="Игорь Демьяненко" width="270"
-                            height="260">
+
+                        <picture>
+                            <source srcset="
+                                    ./image/team/foto1_lg.jpg    1x,
+                                    ./image/team/foto1_lg@2x.jpg 2x" 
+                                    media="(min-width: 1200px)" 
+                                    type="image/jpeg" />
+
+                             <source srcset="
+                                    ./image/team/foto1_md.jpg    1x,
+                                    ./image/team/foto1_md@2x.jpg 2x" 
+                                    media="(min-width: 768px)" 
+                                    type="image/jpeg" />
+                                    
+                            <source srcset="
+                                    ./image/team/foto1_sm@2x.jpg 2x" 
+                                    media="(max-width: 767px)" 
+                                    type="image/jpeg" />
+
+                        <img class="our-team__foto" src="./image/team/foto1_sm.jpg" alt="Игорь Демьяненко" width="450"
+                            height="460">
+
+                            </picture>
+
                         <div class="our-team__info">
                             <h3 class="our-team__name">Игорь Демьяненко</h3>
                             <p class="our-team__position">Product Designer</p>
@@ -192,8 +214,29 @@
                         </div>
                     </li>
                     <li class="our-team__item">
-                        <img class="our-team__foto" src="./image/team/foto2.jpg" alt="льга Репина" width="270"
-                            height="260">
+
+                        <picture>
+                            <source srcset="
+                            ./image/team/foto2_lg.jpg    1x,
+                            ./image/team/foto2_lg@2x.jpg 2x" 
+                            media="(min-width: 1200px)" 
+                            type="image/jpeg" />
+                        
+                            <source srcset="
+                            ./image/team/foto2_md.jpg    1x,
+                            ./image/team/foto2_md@2x.jpg 2x"
+                             media="(min-width: 768px)" 
+                             type="image/jpeg" />
+                        
+                            <source srcset="
+                            ./image/team/foto2_sm@2x.jpg 2x"
+                             media="(max-width: 767px)"
+                              type="image/jpeg" />
+
+                         <img class="our-team__foto" src="./image/team/foto2_sm.jpg" alt="Ольга Репина" width="450"
+                            height="460">
+                        </picture>
+
                         <div class="our-team__info">
                             <h3 class="our-team__name">Ольга Репина</h3>
                             <p class="our-team__position" lang="en">Frontend Developer</p>
@@ -222,8 +265,27 @@
                         </div>
                     </li>
                     <li class="our-team__item">
-                        <img class="our-team__foto" src="./image/team/foto3.jpg" alt="Николай Тарасов" width="270"
-                            height="260">
+
+                        <picture>
+                            <source srcset="
+                            ./image/team/foto3_lg.jpg    1x,
+                            ./image/team/foto3_lg@2x.jpg 2x"
+                                media="(min-width: 1200px)"
+                                type="image/jpeg" />
+                        
+                            <source srcset="
+                            ./image/team/foto3_md.jpg    1x,
+                            ./image/team/foto3_md@2x.jpg 2x" 
+                                media="(min-width: 768px)"
+                                type="image/jpeg" />
+                        
+                            <source srcset="
+                            ./image/team/foto3_sm@2x.jpg 2x" media="(max-width: 767px)"
+                                type="image/jpeg" />
+
+                        <img class="our-team__foto" src="./image/team/foto3_sm.jpg" alt="Николай Тарасов" width="450"
+                            height="460">
+
                         <div class="our-team__info">
                             <h3 class="our-team__name">Николай Тарасов</h3>
                             <p class="our-team__position" lang="en">Marketing</p>
@@ -252,8 +314,20 @@
                         </div>
                     </li>
                     <li class="our-team__item">
-                        <img class="our-team__foto" src="./image/team/foto4.jpg" alt="Михаил Ермаков" width="270"
-                            height="260">
+
+                     <picture>
+                         <source srcset="
+                            ./image/team/foto4_lg.jpg    1x,
+                            ./image/team/foto4_lg@2x.jpg 2x" media="(min-width: 1200px)" type="image/jpeg" />
+
+                         <source srcset="
+                            ./image/team/foto4_md.jpg    1x,
+                            ./image/team/foto4_md@2x.jpg 2x" media="(min-width: 768px)" type="image/jpeg" />
+
+                         <source srcset="
+                            ./image/team/foto4_sm@2x.jpg 2x" media="(max-width: 767px)" type="image/jpeg" />
+                        <img class="our-team__foto" src="./image/team/foto4_sm.jpg" alt="Михаил Ермаков" width="450"
+                            height="460">
                         <div class="our-team__info">
                             <h3 class="our-team__name">Михаил Ермаков</h3>
                             <p class="our-team__position" lang="en">UI Designer</p>

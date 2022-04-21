@@ -6,6 +6,7 @@
     background-image: linear-gradient(rgba(47, 48, 58, 0.4),
             rgba(47, 48, 58, 0.4)),
         url(../image/hero/bg-hero_sm.png);
+       
 
         @media screen and (min-device-pixel-ratio: 2),
         screen and (-moz-min-device-pixel-ratio: 2),
@@ -17,9 +18,11 @@
         background-image: linear-gradient(rgba(47, 48, 58, 0.4),
             rgba(47, 48, 58, 0.4)),
         url(../image/hero/bg-hero_sm@2x.png);
+        
+        
         }
 
-        @media screen and (min-width: 768px) and (max-width: 1200px) {
+        @media screen and (min-width: 768px) {
 
             background-image: linear-gradient(rgba(47, 48, 58, 0.4),
                 rgba(47, 48, 58, 0.4)),
@@ -80,7 +83,7 @@ screen and (min-resolution: 2dppx) {
     // @media screen and (min-width: 768px) and (max-width: 1199px) {
     //     max-width: 1199px;
     // }
-    
+
 @media screen and (min-width: 1200px) {
     max-width: 1600px;
     height: 600px;

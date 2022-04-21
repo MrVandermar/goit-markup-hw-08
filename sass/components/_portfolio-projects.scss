@@ -22,10 +22,13 @@
     .portfolio-projects__item {
         width: calc((100% - 30px) / 2);
     }
+    
+    
     .portfolio-projects__item:nth-child(2n) {
         margin-left: 30px;
     }
     }
+    
 
 
 
@@ -43,6 +46,10 @@
 flex-direction: row;
 justify-content: space-between;
 flex-wrap: wrap;
+    }
+
+    .portfolio-projects__item {
+        width: calc((100% - 60px) / 3);
     }
 
 .portfolio-projects__item:not(:nth-child(3n)) {
