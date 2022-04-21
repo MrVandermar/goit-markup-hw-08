@@ -17,11 +17,20 @@ body {
 и индивидуальные для подразделов  */
 
 .container {
+    max-width: 480px;
     margin-left: auto;
     margin-right: auto;
-    width: 1200px;
+    // width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
+
+    
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+    max-width: 768px;
+    }
+@media screen and (min-width: 1200px) {
+    max-width: 1200px;
+}
 
     /* outline: 2px solid tomato; */
 }
@@ -32,10 +41,22 @@ body {
 .our-team,
 .projects,
 .our-clients {
-    padding-top: 94px;
-    padding-bottom: 94px;
+
+padding-top: 60px;
+padding-bottom: 60px;
+    
+    @media screen and (min-width: 1200px) {
+        padding-top: 94px;
+        padding-bottom: 94px;
+    }
 }
 
 .our-work {
-    padding-bottom: 94px;
+    padding-bottom: 60px;
+
+@media screen and (min-width: 1200px) {
+        padding-top: 94px;
+        padding-bottom: 94px;
+    }
+    
 }

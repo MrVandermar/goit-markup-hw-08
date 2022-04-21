@@ -3,28 +3,75 @@
 .our-dignity__list {
     display: flex;
     justify-content: space-between;
+
+    @media screen and (max-width: 767px) {
+    
+       display: block;
+    }
+    @media screen and (min-width: 768px) and (max-width: 1200px) {
+        display: flex;
+        flex-wrap: wrap;
+        margin: -15px;
+    }
 }
 
 .our-dignity__unit {
-    width: 270px;
+    // width: 270px;
+flex-basis: calc((100% - 120px) / 4);
+    @media screen and (max-width: 767px) {
+    
+    //    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+    @media screen and (min-width: 768px) and (max-width: 1199px) {
+flex-basis: calc((100% - 60px) / 2);
+        margin: 15px;
+    }
 }
 
 .our-dignity__icon-fon {
-    width: 270px;
+    width: 100%;
+    display: flex;
+    align-items: center;
     height: 120px;
     margin-bottom: 30px;
     border-radius: 4px;
     padding: 25px 100px;
     background-color: var(--our-team-background);
-}
 
+    @media screen and (max-width: 767px) {
+    width: 100%;
+    //   padding-left: 190px;
+    //   padding-right: 190px;
+
+    }
+    @media screen and (min-width: 768px) and (max-width: 1200px) {
+        width: 100%;
+        // padding-left: 142px;
+        // padding-right: 142px;
+}
+}
 .our-dignity__icon {
     display: block;
+    margin-left: auto;
+    margin-right: auto;
     /* margin: auto; */
 }
 
 .our-dignity__unit+.our-dignity__unit {
-    margin-left: 30px;
+   
+    @media screen and (min-width: 1200px) {
+        margin-left: 30px;
+    }
+}
+.our-dignity__unit:not(:last-child) {
+    
+
+    @media screen and (max-width: 767px) {
+        margin-bottom: 30px;;
+    }
 }
 
 .our-dignity__title {
@@ -36,6 +83,11 @@
     font-size: 14px;
     line-height: 1.14;
     text-transform: uppercase;
+
+    @media screen and (max-width: 767px) {
+    
+       text-align: center;
+    }
 }
 
 .our-dignity__text {

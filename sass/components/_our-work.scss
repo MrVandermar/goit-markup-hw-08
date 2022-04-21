@@ -1,4 +1,12 @@
 /* Чем мы занимаемся */
+.our-work {
+    @media screen and (max-width: 1199px) {
+        display: none;
+    }
+        
+    
+}
+
 
 .our-work__title {
     margin-top: 0;

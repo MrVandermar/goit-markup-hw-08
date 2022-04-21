@@ -13,6 +13,10 @@
     outline: transparent;
     z-index: 99;
 
+    &:hover {
+        cursor: pointer;
+    }
+
     @media screen and (min-width: 768px) {
         display: none;
     }
@@ -29,6 +33,7 @@
 
             .menu-btn:hover & {
                 fill: var(--accent-color);
+                
             }
         }
 
