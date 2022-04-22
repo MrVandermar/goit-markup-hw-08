@@ -81,10 +81,10 @@ margin-right: 0px;
 
 .our-team__title {
 font-size: 28px;
-line-height: 1.17px;
+line-height: 1.17;
 
     margin-top: 0;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 
     color: var(--title-text-color);
     text-align: center;
@@ -93,8 +93,8 @@ line-height: 1.17px;
 
     @media screen and (min-width: 1200px) {
     font-size: 36px;
-    line-height: 1.16px;
-    margin-bottom: 70px;
+    line-height: 1.16;
+    margin-bottom: 50px;
     }
 }
 
