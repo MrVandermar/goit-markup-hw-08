@@ -159,6 +159,10 @@ body {
   color: #2196f3;
 }
 
+body.menu-open {
+  overflow: hidden;
+}
+
 .menu-btn {
   position: relative;
   display: flex;
