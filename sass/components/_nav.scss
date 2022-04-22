@@ -103,6 +103,11 @@
     letter-spacing: 0.02em;
     transition: color var(--transition-duration) var(--transition-timing-function);
 
+    @media screen and (min-width: 768px) and (max-width: 1199px) {
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+
     &:hover,
     &:focus {
         color: var(--accent-color);

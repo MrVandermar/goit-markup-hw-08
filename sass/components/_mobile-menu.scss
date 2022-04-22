@@ -26,7 +26,9 @@ transition: transform var(--transition-duration) var(--transition-timing-functio
 }
 
 .mobile-menu {
- 
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
     max-width: 480px;
     padding: 48px 40px;
 }
@@ -35,9 +37,7 @@ transition: transform var(--transition-duration) var(--transition-timing-functio
 {
     margin-bottom: 32px;
 }
-.mobile-nav__list{
-margin-bottom: 302px;
-}
+
 .mobile-nav__link {
     font-weight: 500;
     font-size: 40px;
@@ -96,10 +96,11 @@ transition: color var(--transition-duration) var(--transition-timing-function);
 
 .socials {
     display: flex;
-   
+  
 }
+
 .socials__item:not(:last-child) {
-    margin-right: 20px;
+margin-right: 20px;
 }
 
 .socials__link {
@@ -111,4 +112,22 @@ transition: color var(--transition-duration) var(--transition-timing-function);
 @media screen and (min-width: 480px) {
         font-size: 18px;
     }
+}
+.socials__item{
+    position: relative;
+}
+.socials__item--strip:not(:last-child)::after {
+    position: absolute;
+    right: -10px;
+    top: 0;
+    display: block;
+    content: " ";
+    width: 1px;
+    height: 20px;
+    background-color: rgba(33, 33, 33, .2);
+}
+
+.mobile-menu_thumb {
+    position: fixed;
+    bottom: 48px;
 }
